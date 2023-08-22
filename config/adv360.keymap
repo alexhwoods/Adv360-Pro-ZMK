@@ -93,8 +93,6 @@
     #define _SEMICOLON_OPT &hm_r RALT SEMICOLON
 
 
-  };
-
     keymap {
         compatible = "zmk,keymap";
 
