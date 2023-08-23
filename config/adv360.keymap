@@ -30,6 +30,8 @@
                    60 61 62 63 64 65 \
                    77 78 79 80 81
 
+#define UNIVERSAL  14 67
+
 
 #define THUMBS_LEFT 35 36 54 71 72 73
 
@@ -67,7 +69,7 @@
         quick_tap_ms = <175>;
         flavor = "balanced";
         bindings = <&kp>, <&kp>;
-        hold-trigger-key-positions = <KEYS_RIGHT THUMBS>;
+        hold-trigger-key-positions = <KEYS_RIGHT THUMBS UNIVERSAL>;
     };
 
     hm_r: homerow_mods_right {
