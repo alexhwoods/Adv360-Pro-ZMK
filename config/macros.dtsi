@@ -9,7 +9,7 @@ macro_horo_focus: macro_horo_focus{
   label = "macro_horo_focus";
   #binding-cells = <0>;
   bindings = <&macro_press &kp RSHFT &kp RGUI>
-            , <&macro_tap &kp T>;
+            , <&macro_tap &kp T>
             , <&macro_release &kp RSHFT &kp RGUI>
             , <&macro_tap &kp ENTER>
             ;
