@@ -105,7 +105,7 @@
  &kp TAB      &kp Q       &kp W      &kp E      &kp R     &kp T      &macro_quotes                                                                  &none      &kp Y     &kp U    &kp I      &kp O      &kp P           &kp BSLH
  &kp ESC      _A_OPT      _S_CTL     _D_CMD     _F_SFT    &kp G      &mt A B         &kp LCTRL    &kp LALT                  &kp LGUI    &kp RCTRL   &kp LALT   &kp H     _J_SFT   _K_CMD     _L_CTL     _SEMICOLON_OPT  &kp SQT
  &kp LSHFT    &kp Z       &kp X      &kp C      &kp V     &kp B                                   &kp HOME                  &kp PG_UP                          &kp N     &kp M    &kp COMMA  &kp DOT    &kp FSLH        &kp RSHFT
- &mo 2        &kp GRAVE   &kp ESC    &kp LEFT   &kp RIGHT            &lt 1 SPACE     &kp ENTER    &kp LEFT_ALT              &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
+ &mo 2        &kp GRAVE   &kp ESC    &kp LEFT   &kp RIGHT            &lt 1 SPACE     &kp ENTER    &macro_horo_focus         &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
             >;
         };
 
