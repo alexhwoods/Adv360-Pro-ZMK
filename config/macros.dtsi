@@ -8,9 +8,9 @@ macro_horo_focus: macro_horo_focus{
   compatible = "zmk,behavior-macro";
   label = "macro_horo_focus";
   #binding-cells = <0>;
-  bindings = <&macro_press &kp RSHFT &kp RGUI>
+  bindings = <&macro_press &kp RSHFT &kp RALT>
             , <&macro_tap &kp T>
-            , <&macro_release &kp RSHFT &kp RGUI>
+            , <&macro_release &kp RSHFT &kp RALT>
             , <&macro_tap &kp ENTER>
             ;
 };
