@@ -11,7 +11,7 @@ macro_horo_focus: macro_horo_focus{
   bindings = <&macro_press &kp RSHFT &kp RGUI>
             , <&macro_tap &kp T>;
             , <&macro_release &kp RSHFT &kp RGUI>
-            , <&macro_tap &kp ENTER>;
+            , <&macro_tap &kp ENTER>
             ;
 };
 macro_quotes: macro_quotes{
