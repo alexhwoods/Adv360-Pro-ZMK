@@ -142,7 +142,7 @@
         /** https://colemakmods.github.io/mod-dh/ */
         colemak_dh {
             bindings = <
- &kp EQUAL    &kp N1          &kp N2     &kp N3     &kp N4    &kp N5     &tog 0                                                                       &mo 3      &kp N6    &kp N7   &kp N8     &kp N9    &kp N0          &kp MINUS
+ &kp EQUAL    &kp N1          &kp N2     &kp N3     &kp N4    &kp N5     &trans                                                                      &mo 3      &kp N6    &kp N7   &kp N8     &kp N9    &kp N0          &kp MINUS
  &kp TAB      &kp Q           &kp W      &kp F      &kp P     &kp B      &kp LG(LS(V))                                                                &none      &kp J     &kp L    &kp U      &kp Y     &kp SEMICOLON   &kp BSLH
  &kp ESC      &kp A           &kp R      &kp S      &kp T     &kp G      &kp LG(LS(N4))  &kp F3       &kp F4                  &kp LGUI    &kp RCTRL   &kp LALT   &kp M     &kp N    &kp E      &kp I     &kp O           &kp SQT
  &kp LSHFT    &kp Z           &kp X      &kp C      &kp D     &kp V                                   &kp F2                  &kp PG_UP                          &kp K     &kp H    &kp COMMA  &kp DOT   &kp FSLH        &kp RSHFT
