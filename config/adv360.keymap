@@ -84,7 +84,7 @@
     };
   };
 
-    // Home row mods
+    // Home row mods QWERTY
     #define _F_SFT &hm_l LSHFT F  // Shift on index fingers
     #define _J_SFT &hm_r RSHFT J
     #define _D_CMD &hm_l LGUI D   // Command on middle fingers
@@ -93,6 +93,16 @@
     #define _L_CTL &hm_r RCTRL L
     #define _A_OPT &hm_l LALT A   // Option on pinky finger
     #define _SEMICOLON_OPT &hm_r RALT SEMICOLON
+
+    // Home row mods Colemak-DH
+    #define CM_T_SFT &hm_l LSHFT T  // Shift on index fingers
+    #define CM_N_SFT &hm_r RSHFT N
+    #define CM_S_CMD &hm_l LGUI S   // Command on middle fingers
+    #define CM_E_CMD &hm_r RGUI E
+    #define CM_R_CTL &hm_l LCTRL R  // Control on ring down
+    #define CM_I_CTL &hm_r RCTRL I
+    #define CM_A_OPT &hm_l LALT A   // Option on pinky finger
+    #define CM_O_OPT &hm_r RALT O
 
 
     keymap {
@@ -142,9 +152,9 @@
         /** https://colemakmods.github.io/mod-dh/ */
         colemak_dh {
             bindings = <
- &kp EQUAL    &kp N1          &kp N2     &kp N3     &kp N4    &kp N5     &trans                                                                      &mo 3      &kp N6    &kp N7   &kp N8     &kp N9    &kp N0          &kp MINUS
+ &kp EQUAL    &kp N1          &kp N2     &kp N3     &kp N4    &kp N5     &trans                                                                       &mo 3      &kp N6    &kp N7   &kp N8     &kp N9    &kp N0          &kp MINUS
  &kp TAB      &kp Q           &kp W      &kp F      &kp P     &kp B      &kp LG(LS(V))                                                                &none      &kp J     &kp L    &kp U      &kp Y     &kp SEMICOLON   &kp BSLH
- &kp ESC      &kp A           &kp R      &kp S      &kp T     &kp G      &kp LG(LS(N4))  &kp F3       &kp F4                  &kp LGUI    &kp RCTRL   &kp LALT   &kp M     &kp N    &kp E      &kp I     &kp O           &kp SQT
+ &kp ESC      CM_A_OPT        CM_R_CTL   CM_S_CMD   CM_T_SFT  &kp G      &kp LG(LS(N4))  &kp F3       &kp F4                  &kp LGUI    &kp RCTRL   &kp LALT   &kp M     CM_N_SFT CM_E_CMD   CM_I_CTL  CM_O_OPT           &kp SQT
  &kp LSHFT    &kp Z           &kp X      &kp C      &kp D     &kp V                                   &kp F2                  &kp PG_UP                          &kp K     &kp H    &kp COMMA  &kp DOT   &kp FSLH        &kp RSHFT
  &mo 2        &kp GRAVE       &kp ESC    &kp UP     &kp RIGHT            &lt 1 SPACE     &kp ENTER        &kp F1              &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT  &kp RBKT        &mo 2
             >;
