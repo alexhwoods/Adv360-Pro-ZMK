@@ -1,4 +1,3 @@
-
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -93,6 +92,7 @@
     #define _L_CTL &hm_r RCTRL L
     #define _A_OPT &hm_l LALT A   // Option on pinky finger
     #define _SEMICOLON_OPT &hm_r RALT SEMICOLON
+    #define _V_CTRL_OPT &hm_l LC(LALT) V  // Control+Option when held, v when tapped
 
     // Home row mods Colemak-DH
     #define CM_T_SFT &hm_l LSHFT T  // Shift on index fingers
@@ -114,8 +114,8 @@
  &kp EQUAL          &kp N1          &kp N2            &kp N3     &kp N4    &kp N5     &tog 4                                                                         &mo 3      &kp N6    &kp N7   &kp N8     &kp N9     &kp N0          &kp MINUS
  &kp TAB            &kp Q           &kp W             &kp E      &kp R     &kp T      &kp LG(LS(V))                                                                  &none      &kp Y     &kp U    &kp I      &kp O      &kp P           &kp BSLH
  &mt LCTRL ESC      _A_OPT          _S_CTL            _D_CMD     _F_SFT    &kp G      &kp LG(LS(N4))  &kp F3       &kp F4                  &kp LGUI    &kp RCTRL   &kp LALT   &kp H     _J_SFT   _K_CMD     _L_CTL     _SEMICOLON_OPT  &kp SQT
- &kp LSHFT          &kp Z           &kp X             &kp C      &kp V     &kp B                                   &kp F2                  &kp PG_UP                          &kp N     &kp M    &kp COMMA  &kp DOT    &kp FSLH        &kp RSHFT
- &mo 2              &kp GRAVE       &kp UNDERSCORE    &kp UP     &kp RIGHT            &lt 1 SPACE     &kp ENTER        &kp F1                  &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
+ &kp LSHFT          &kp Z           &kp X             &kp C      _V_CTRL_OPT    &kp B                                   &kp F2                  &kp PG_UP                          &kp N     &kp M    &kp COMMA  &kp DOT    &kp FSLH        &kp RSHFT
+ &kp LC(LALT)       &kp GRAVE       &kp UNDERSCORE    &kp UP     &kp RIGHT            &lt 1 SPACE     &kp ENTER        &kp F1                  &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
             >;
         };
 
