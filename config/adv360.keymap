@@ -115,7 +115,7 @@
  &kp TAB            &kp Q           &kp W             &kp E      &kp R     &kp T      &kp LG(LS(V))                                                                  &none      &kp Y     &kp U    &kp I      &kp O      &kp P           &kp BSLH
  &mt LCTRL ESC      _A_OPT          _S_CTL            _D_CMD     _F_SFT    &kp G      &kp LG(LS(N4))  &kp F3       &kp F4                  &macro_bt_clear_all    &kp RCTRL   &kp LALT   &kp H     _J_SFT   _K_CMD     _L_CTL     _SEMICOLON_OPT  &kp SQT
  &kp LSHFT          &kp Z           &kp X             &kp C      _V_CTRL_OPT    &kp B                                   &kp F2                  &kp PG_UP                          &kp N     &kp M    &kp COMMA  &kp DOT    &kp FSLH        &kp RSHFT
- &kp F17            &kp GRAVE       &kp UNDERSCORE    &kp UP     &kp RIGHT            &lt 1 SPACE     &kp ENTER        &kp F1                  &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
+ &kp F7             &kp GRAVE       &kp UNDERSCORE    &kp UP     &kp RIGHT            &lt 1 SPACE     &kp ENTER        &kp F1                  &kp PG_DN   &kp LGUI    &kp BSPC             &kp UP   &kp DOWN   &kp LBKT   &kp RBKT        &mo 2
             >;
         };
 
